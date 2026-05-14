@@ -1,0 +1,94 @@
+:root{
+	--automat: auto;
+	--okreslony: 25px 0px 25px 0px;
+	--rodzina: arial;
+	--styl: italic;
+	--kursor: pointer;
+	--wielkosc: 24px;
+	--kolor: white;
+	--wyswietlanie: none;
+}
+
+body{
+	background-color: #E2E1A3;
+	max-width: 1920px;
+}
+
+#kontener{
+	width: 90%;
+	margin: var(--automat);
+	text-align: center;
+}
+
+#naglowek{
+	margin: var(--okreslony);
+	font-size: 42px;
+	font-family: var(--rodzina);
+	font-style: var(--styl);
+}
+
+#opis{
+	font-size: 27px;
+}
+
+summary{
+	width: 210px;
+	margin: var(--automat);
+	cursor: var(--kursor);
+}
+
+ul{
+	list-style-type: none;
+	font-size: var(--wielkosc);
+}
+
+#wybor{
+	margin: var(--okreslony);
+	font-size: 33px;
+}
+
+#wybieram, #ile{
+	font-size: 25px;
+	padding: 2px;
+	font-family: var(--rodzina);
+	background-color: var(--kolor);
+	cursor: var(--kursor);
+}
+
+input[type="button"]{
+	font-size: 31px;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: var(--kursor);
+}
+
+#pola{
+	margin: var(--okreslony);
+}
+
+.rowny, .rowny2{
+	font-size: 29px;
+	margin: 4px;
+	display: var(--wyswietlanie);
+}
+
+input[type="text"], input[type="number"]{
+	font-size: var(--wielkosc);
+	background-color: var(--kolor);
+}
+
+#koniec{
+	font-size: 30px;
+}
+
+#wypisz{
+	margin: var(--okreslony);
+	display: var(--wyswietlanie);
+}
+
+#stopka{
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-style: var(--styl);
+	text-shadow: 0.5px 0.5px 1px black;
+}

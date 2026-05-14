@@ -1,0 +1,62 @@
+<!doctype html>
+	<html lang="pl">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="author" content="Przemysław Szułczyński"/>
+			<meta name="robots" content="index, follow"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<meta name="description" content="Projekt Alfabet - program pozwalający posortować wyrazy lub liczby."/>
+
+			<meta property="og:type" content="website"/>
+      		<meta property="og:url" content="https://szulczyk.pl/projekt-3/alfabet"/>
+      		<meta property="og:title" content="Szulczyk.pl | Projekt 3"/>
+      		<meta property="og:description" content="Program Sortowniczy"/>
+      		<meta property="og:image" content="../favicon-512x512.webp"/>
+
+			<title>Program Sortowniczy</title>
+			<link rel="stylesheet" media="(width >= 1350px)" href="./css_alfabet/alfabet_domyslne.css"/>
+			<link rel="stylesheet" media="(1000px <= width < 1350px)" href="./css_alfabet/alfabet_maly_komputer.css"/>
+			<link rel="stylesheet" media="(640px <= width < 1000px)" href="./css_alfabet/alfabet_tablet.css"/>
+			<link rel="stylesheet" media="(width < 640px)" href="./css_alfabet/alfabet_telefon.css"/>
+			<link rel="apple-touch-icon" sizes="180x180" href="../favicon-touch-icon.webp"/>
+      		<link rel="icon" type="image/webp" sizes="32x32" href="../favicon-32x32.webp"/>
+      		<link rel="icon" type="image/webp" sizes="16x16" href="../favicon-16x16.webp"/>
+			<link rel="shortcut icon" href="../favicon.ico"/>
+			<script type="text/javascript" src="./skrypty_alfabet/alfabet.js" defer></script>
+		</head>
+			<body>
+				<div id="kontener">
+					<div id="naglowek">Posortuj wyrazy lub liczby</div>
+					
+					<div id="opis">
+						<details><summary>Jak to działa?</summary>
+							<ul>
+								<li><b>Krok 1</b>: Wybierz sortowanie wyrazów lub liczb.</li>
+								<li><b>Krok 2</b>: Wybierz liczbę elementów do przesortowania (maksymalnie do 30 elementów).</li>
+								<li><b>Krok 3</b>: Naciśnij przycisk <u>Stwórz pola</u>, aby stworzyć pola tekstowe/pola liczbowe.</li>
+								<li><b>Krok 4</b>: Wpisz wyrazy (Np.: <q><i>Słoneczny dzień</i></q>) lub liczby (Np.: <q><i>1245,7</i></q>) w stworzone pola tekstowe/pola liczbowe.</li>
+								<li><b>Krok 5</b>: Naciśnij przycisk <u>Sortuj</u> i ciesz się posortowanymi elementami.</li>
+							</ul>
+						</details>
+					</div>
+					
+					<div id="wybor">
+						Sortuj <select id="wybieram" autocomplete="off"><option value="1" selected>Wyrazy</option><option value="2">Liczby</option></select> Ilość <select id="ile" autocomplete="off"><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10" selected>10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option></select>
+					</div>
+					
+					<div><input id="start" type="button" value="Stwórz pola"/></div>
+					
+					<div id="pola">
+						<div class="rowny"><label for="1">1. </label><input id="1" type="text" autocomplete="off"/></div><div class="rowny"><label for="2">2. </label><input id="2" type="text" autocomplete="off"/></div><div class="rowny"><label for="3">3. </label><input id="3" type="text" autocomplete="off"/></div><div class="rowny"><label for="4">4. </label><input  id="4" type="text" autocomplete="off"/></div><div class="rowny"><label for="5">5. </label><input id="5" type="text" autocomplete="off"/></div><div class="rowny"><label for="6">6. </label><input id="6" type="text" autocomplete="off"/></div><div class="rowny"><label for="7">7. </label><input id="7" type="text" autocomplete="off"/></div><div class="rowny"><label for="8">8. </label><input id="8" type="text" autocomplete="off"/></div><div class="rowny"><label for="9">9. </label><input id="9" type="text" autocomplete="off"/></div><div class="rowny"><label for="10">10. </label><input id="10" type="text" autocomplete="off"/></div><div class="rowny"><label for="11">11. </label><input id="11" type="text" autocomplete="off"/></div><div class="rowny"><label for="12">12. </label><input id="12" type="text" autocomplete="off"/></div><div class="rowny"><label for="13">13. </label><input id="13" type="text" autocomplete="off"/></div><div class="rowny"><label for="14">14. </label><input id="14" type="text" autocomplete="off"/></div><div class="rowny"><label for="15">15. </label><input id="15" type="text" autocomplete="off"/></div><div class="rowny"><label for="16">16. </label><input id="16" type="text" autocomplete="off"/></div><div class="rowny"><label for="17">17. </label><input id="17" type="text" autocomplete="off"/></div><div class="rowny"><label for="18">18. </label><input id="18" type="text" autocomplete="off"/></div><div class="rowny"><label for="19">19. </label><input id="19" type="text" autocomplete="off"/></div><div class="rowny"><label for="20">20. </label><input id="20" type="text" autocomplete="off"/></div><div class="rowny"><label for="21">21. </label><input id="21" type="text" autocomplete="off"/></div><div class="rowny"><label for="22">22. </label><input id="22" type="text" autocomplete="off"/></div><div class="rowny"><label for="23">23. </label><input id="23" type="text" autocomplete="off"/></div><div class="rowny"><label for="24">24. </label><input id="24" type="text" autocomplete="off"/></div><div class="rowny"><label for="25">25. </label><input id="25" type="text" autocomplete="off"/></div><div class="rowny"><label for="26">26. </label><input id="26" type="text" autocomplete="off"/></div><div class="rowny"><label for="27">27. </label><input id="27" type="text" autocomplete="off"/></div><div class="rowny"><label for="28">28. </label><input id="28" type="text" autocomplete="off"/></div><div class="rowny"><label for="29">29. </label><input id="29" type="text" autocomplete="off"/></div><div class="rowny"><label for="30">30. </label><input id="30" type="text" autocomplete="off"/></div>
+						
+						<div class="rowny2"><label for="31">1. </label><input id="31" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="32">2. </label><input id="32" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="33">3. </label><input id="33" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="34">4. </label><input id="34" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="35">5. </label><input id="35" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="36">6. </label><input id="36" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="37">7. </label><input id="37" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="38">8. </label><input id="38" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="39">9. </label><input id="39" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="40">10. </label><input id="40" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="41">11. </label><input id="41" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="42">12. </label><input id="42" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="43">13. </label><input id="43" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="44">14. </label><input id="44" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="45">15. </label><input id="45" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="46">16. </label><input id="46" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="47">17. </label><input id="47" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="48">18. </label><input id="48" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="49">19. </label><input id="49" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="50">20. </label><input id="50" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="51">21. </label><input id="51" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="52">22. </label><input id="52" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="53">23. </label><input id="53" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="54">24. </label><input id="54" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="55">25. </label><input id="55" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="56">26. </label><input id="56" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="57">27. </label><input id="57" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="58">28. </label><input id="58" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="59">29. </label><input id="59" type="number" step="0.01" autocomplete="off"/></div><div class="rowny2"><label for="60">30. </label><input id="60" type="number" step="0.01" autocomplete="off"/></div>
+					</div>
+					
+					<div id="koniec"></div>
+					
+					<div id="wypisz"><input id="sortuj" type="button" value="Sortuj"/></div>
+					
+					<div id="stopka">&copy; 2024 Szulczyk - Przemysław Szułczyński</div>
+				</div>
+			</body>
+	</html>
