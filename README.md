@@ -1,13 +1,13 @@
 # ***[Projekt Alfabet](https://szulczyk.pl/projekt-3/alfabet)***
 
 ## 🖼️ ***Zrzuty ekranu***
-![Obrazek 1](.github/ss1.webp)
+![Obrazek 1](dokumentacja/zrzuty-ekranu/ss1.webp)
 
-![Obrazek 2](.github/ss4.webp)
+![Obrazek 2](dokumentacja/zrzuty-ekranu/ss4.webp)
 
-![Obrazek 3](.github/ss6.webp)
+![Obrazek 3](dokumentacja/zrzuty-ekranu/ss6.webp)
 
-![Obrazek 4](.github/ss7.webp)
+![Obrazek 4](dokumentacja/zrzuty-ekranu/ss7.webp)
 
 <br/>
 
